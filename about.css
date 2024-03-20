@@ -1,0 +1,99 @@
+.hero .bg-image {
+  border-radius: 32px;
+}
+
+.who-are-we-section {
+  background-color: #e6f8fd;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.mission-vision-block {
+  margin-bottom: 48px;
+}
+
+.flex-container {
+  display: flex;
+  min-height: 25px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 48px;
+  justify-content: center;
+}
+
+.flex-item {
+  /* height: 40px; */
+  margin-bottom: 10px;
+}
+
+.dark-blue-card {
+  background-color: #005b75;
+  color: #fafafa;
+  border-radius: 24px;
+  box-shadow: 10px 15px 20px 0px #adc3ca;
+}
+
+.dark-blue-card:hover {
+  background-color: #016e8d;
+}
+
+.dark-blue-card i {
+  color: #01baef;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+/* CORE VALUES */
+.core-values-block {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.value-card {
+  background-color: #01baef;
+  color: #fafafa;
+  border-radius: 24px;
+  min-height: 230px;
+  box-shadow: 10px 15px 20px 0px #a4c3d6;
+  margin-bottom: 20px;
+}
+
+.value-card:hover {
+  background-color: #2cd1ff;
+}
+
+.value-card i {
+  color: #fff;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.card-text {
+  color: #005b75;
+  font-weight: 500;
+}
+
+/* Team section */
+.team-row {
+  margin-bottom: 48px;
+}
+
+.team-card {
+  background-color: #e6f8fd;
+  border-radius: 12px;
+  border: 2px solid #005b75;
+  transition: transform 0.2s;
+}
+
+.team-card:hover {
+  transform: scale(1.1);
+}
+
+.team-card img {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  object-fit: cover;
+  height: 25rem;
+}

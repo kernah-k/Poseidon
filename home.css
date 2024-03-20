@@ -1,0 +1,72 @@
+
+.why-us-section {
+    background-color: #E6F8FD;
+    ;
+    padding: 20px 5%;
+    margin-top: 25px;
+}
+
+.facilities-section {
+    padding: 0 5%;
+    margin-top: 15px;
+}
+
+.cards-row {
+    padding-top: 15px;
+}
+
+.custom-card {
+    border: none;
+}
+
+.custom-card-img {
+    border-radius: 20px !important;
+}
+
+.custom-card-img p {
+    font-family: 'Heebo';
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAFAFA;
+}
+
+.gallery-section {
+    padding: 0 5%;
+}
+
+.gallery-row {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+.gallery-img {
+    padding-bottom: 12%;
+    transition: transform .2s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+
+.facilities-section .card-img {
+    width: 100%;
+}
+
+.facilities-card-container {
+    padding-bottom: 5%;
+}
+
+.site-carousel {
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.carousel-inner {
+    border-radius: 32px;
+}
+
+.carousel-caption {
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 24px;
+}

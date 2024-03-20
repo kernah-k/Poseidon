@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Poseidon Water Park | Contact</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <link rel="icon" type="image/x-icon" href="/images/favicon.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.youtube.com">YouTube</a>
+    <a href="https://www.w3schools.com">W3Schools</a>
+  </div>
+
+  <header class="fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><i class="fa-solid fa-list blue-icon" onclick="openNav()"></i> <img
+          src="images/logo.png" height="40" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link nav-black" href="index.html"><i class="fa-solid fa-house-user blue-icon"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-black" href="about.html"><i class="fa-solid fa-circle-info blue-icon"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-black" href="game-welcome.html"><i class="fa-solid fa-gamepad blue-icon"></i> Game</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-black" href="video.html"><i class="fa-solid fa-circle-play blue-icon"></i> Video</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2 search-box" type="search" placeholder="I'm looking for.." />
+          <button class="btn btn-danger my-2 my-sm-0 custom-button search-button" type="submit">
+            <i class="fa-solid fa-magnifying-glass"></i> Search
+          </button>
+        </form>
+        <div class="btn-group">
+          <a class="btn btn-outline-danger custom-button contact-button" href="contact.html"><i class=""></i>
+            CONTACT</a>
+          <button type="button" class="btn btn-outline-danger dropdown-toggle dropdown-toggle-split contact-button"
+            data-toggle="dropdown"></button>
+          <div class="dropdown-menu">
+            <a href="https://www.w3schools.com/bootstrap4/default.asp" class="dropdown-item">Link 1</a>
+            <a href="https://www.michigan.org/water-parks" class="dropdown-item">Link 2</a>
+            <a href="https://youtu.be/uXB-0Xg7rGs" class="dropdown-item">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main role="main" style="margin-top: 80px">
+    <!-- HERO -->
+    <div class="hero content-padding" data-aos="fade-in">
+      <div class="p-5 text-center bg-image" style="background-image: url('images/contact-us.png')">
+        <div class="mask">
+          <div class="d-flex justify-content-start align-items-left h-100 w-50">
+            <div class="text-white">
+              <h1 class="mb-3 text-left animated">Contact Us</h1>
+              <p class="mb-3 text-left">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+                ullamcorper nisi in blandit cursus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT FORM + ILLUSTRATION -->
+    <div class="contact-block">
+      <div class="row content-padding row justify-content-between">
+        <div class="col-lg-4 contact-illustration d-none align-items-center d-lg-flex" data-aos="fade-right">
+          <img src="images/contact-form.png" alt="form illustration" class="contact-illustration" />
+        </div>
+        <div class="col-lg-5 contact-form" data-aos="fade-left">
+          <h2 class="text-center">Fill In This Form</h2>
+          <form>
+            <div class="form-group">
+              <label for="pwd">Full name <span style="color: red">*</span></label>
+              <input type="text" class="form-control" placeholder="Jane Doe" id="input" required />
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail address <span style="color: red">*</span></label>
+              <input type="email" class="form-control" placeholder="janedoe@gmail.com" id="input" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Subject <span style="color: red">*</span></label>
+              <input type="email" class="form-control" placeholder="Information" id="input" required />
+            </div>
+            <div class="form-group">
+              <label>Message <span style="color: red">*</span></label>
+              <textarea class="form-control" name="message" id="message"
+                placeholder="How should I book for a pool party?" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block border">
+              send message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT DETAILS -->
+    <div class="row text-center contact-details" data-aos="zoom-in">
+      <div class="col-sm-6 col-lg-3 mb-4 mb-md-0">
+        <i class="fas fa-map-marker-alt fa-1x icon"></i>
+        <p class="font-weight-bold my-3">Location</p>
+        <p class="text-muted">6391 Elgin St. Celina, Delaware 10299</p>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 mb-md-0">
+        <i class="fas fa-phone fa-1x icon"></i>
+        <p class="font-weight-bold my-3">Phone Number</p>
+        <p class="text-muted">(201) 555-0124</p>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 mb-md-0">
+        <i class="fas fa-envelope fa-1x icon"></i>
+        <p class="font-weight-bold my-3">E-mailaddress</p>
+        <p class="text-muted">poseidonwp@gmail.com</p>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 mb-md-0">
+        <i class="fa-solid fa-sun fa-1x icon"></i>
+        <p class="font-weight-bold my-3">Opening HOURS</p>
+        <p class="text-muted">Monday - Friday 11:00 AM - 5:00 PM</p>
+        <p class="text-muted">Monday - Friday 11:00 AM - 5:00 PM</p>
+        <p class="text-muted">Monday - Friday 11:00 AM - 5:00 PM</p>
+      </div>
+    </div>
+
+    <!-- MAP -->
+    <div id="map-container-google-1" class="map-container" style="height: 300px" data-aos="fade-in">
+      <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+        style="border: 0" allowfullscreen></iframe>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="row align-items-start content-padding footer-top">
+      <div class="col-md-3">
+        <img src="images/footer_logo.png" class="footer-logo" width="180" />
+      </div>
+      <div class="col-md-3">
+        <h6>REACH US</h6>
+        <ul class="list-unstyled">
+          <li>6391 Elgin St. Celina, Delaware 10299</li>
+          <li>(201) 555-0124</li>
+          <li>poseidonwp@gmail.com</li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>QUICK LINKS</h6>
+        <ul class="list-unstyled">
+          <li><a href="video.html" class="quick-link">Video</a></li>
+          <li><a href="game-welcome.html" class="quick-link">Game </a></li>
+          <li><a href="about.html" class="quick-link">About </a></li>
+          <li><a href="contact.html" class="quick-link">Contact </a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h6>OPENING HOURS</h6>
+        <ul class="list-unstyled">
+          <li>Monday - Friday 11:00 AM - 5:00 PM</li>
+          <li>Monday - Friday 11:00 AM - 5:00 PM</li>
+          <li>Monday - Friday 11:00 AM - 5:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="blue-box">
+      <div class="row content-padding">
+        <div class="col">
+          <span class="footer-bottom-text">Made by Team Poseidon</span>
+        </div>
+        <div class="col text-right">
+          <span class="footer-bottom-text">Copyright &#169; 2022 Poseidon Park All rights reserved.</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 600 });
+  </script>
+  <script>
+    /* Set the width of the side navigation to 250px */
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</body>
+
+</html>
